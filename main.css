@@ -1,0 +1,73 @@
+/*img{
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 900px;
+  height: 800px;
+}*/
+
+*{
+  padding-top:0;
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+
+#banner {
+  height:100vh;
+  position: relative;
+  background:url(paper1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+h1{
+  background: rgba(0, 0, 0, 0.5);
+  color:white;
+  font-family: sans-serif;
+  position:relative;
+  text-align: center;
+  height: 18%;
+}
+
+
+.block {
+    position: absolute;
+    bottom: 175px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    width: 200px;
+}
+
+form{
+  padding-top: 5px;
+}
+
+#imgBar img{
+width: 30%;
+display: inline-block;
+position: relative;
+animation: fadeIn 10s;
+}
+
+.column{
+flex:50%;
+padding: 10px;
+height: 250px;
+margin: 5px;
+}
+
+.row{
+  display: flex;
+  padding-top: 25px;
+
+
+}
+
+@keyframes fadeIn {
+  0% {opacity:0}
+  100% {opacity: 1}
+}
