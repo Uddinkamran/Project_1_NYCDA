@@ -55,6 +55,15 @@ padding-bottom: 10px;
 animation: fadeIn 10s;
 }
 
+.quote{
+  text-align: center;
+  font-size:2.0em;
+  font-family: Bookman;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+
 .column{
 flex:50%;
 padding: 10px;
