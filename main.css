@@ -47,12 +47,13 @@ form{
 }
 
 #imgBar img{
-width: 30%;
+/*width: 30%;*/
+margin: 0px 20px;
 display: inline-block;
 background-color: red;
 position: relative;
 padding-bottom: 10px;
-animation: fadeIn 10s;
+animation: fadeIn 8s;
 }
 
 .quote{
@@ -82,6 +83,19 @@ footer{
 }
 
 @keyframes fadeIn {
-  0% {opacity:0}
+  0% {opacity:0.05}
   100% {opacity: 1}
 }
+
+/*Test*/
+.mySlides {
+  display:inline-block;}
+.three {
+  display:inline-block;}
+.Slides{
+  display:inline-block;}
+.container{
+  position: relative;
+  display: inline-block;}
+
+/*Test*/
