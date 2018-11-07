@@ -83,11 +83,10 @@ footer{
 }
 
 @keyframes fadeIn {
-  0% {opacity:0.05}
-  100% {opacity: 1}
+  0% {opacity:1}
+  100% {opacity: 0.02}
 }
 
-/*Test*/
 .mySlides {
   display:inline-block;}
 .three {
@@ -98,4 +97,8 @@ footer{
   position: relative;
   display: inline-block;}
 
-/*Test*/
+@media only screen and (max-width: 720px) {
+    img{
+      width: 10vh;
+      height: 10vh:
+    }

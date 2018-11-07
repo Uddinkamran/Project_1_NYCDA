@@ -1,3 +1,4 @@
+//With the help of w3 schools
 var myIndex = 0;
 carousel();
 
@@ -16,6 +17,8 @@ function carousel() {
     x[myIndex-1].style.display = "inline-block";
     j[myIndex-1].style.display = "inline-block";
     k[myIndex-1].style.display = "inline-block";
-    setTimeout(carousel, 7000); // Change image every 2 seconds
+    setTimeout(carousel, 7000); // Change image every 7 seconds
+
+
 
 }
